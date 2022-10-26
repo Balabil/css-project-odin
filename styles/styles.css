@@ -32,7 +32,7 @@ button {
     color: white;
     font-weight: 600;
     font-size: 18px;
-    border-radius: 7px;
+    border-radius: 4px;
 }
 
 .header{
@@ -108,4 +108,65 @@ button {
     max-width: 150px;
 }
 
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10em 10em 10em 10em;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.quote-container{
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 0.5em;
+    max-width: 850px;
+}
+
+.quote-container .author{
+    margin-left: auto;
+    font-weight: 700;
+}
+
+.notification{
+    padding: 6em 10em 6em 10em;
+}
+
+.cta{
+    background-color: #3882F6;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 4em 2em 4em;
+    border-radius: 4px;
+}
+
+.cta-items{
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.cta .cta-btn{
+    border-color: white;
+}
+
+.footer{
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    color: white;
+}
 
